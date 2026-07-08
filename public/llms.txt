@@ -1,0 +1,71 @@
+# Better Life 4 U — Generative Engine Optimization Map
+
+> A counseling and coaching practice led by a seasoned professional with 26 years of experience, dedicated to guiding individuals through stress, anxiety, depression, and relationship challenges toward a more fulfilling life. The brand exudes warmth, empathy, and genuine optimism — assuring clients that meaningful change is not only possible but achievable, even from the very first session. Services are offered flexibly as online sessions or as immersive retreat experiences for those ready to make a deeper transformation. The tone is confident and grounded without being boastful, creating a safe and hopeful space for people who sense there is more to life than merely surviving it.
+
+---
+
+## Pages
+
+### Home
+https://better-life-4-u-bd32034d.zappy5.app
+Feeling stuck in stress or anxiety? Work with a seasoned relationship counselor offering life coaching and natural healing. Start your transformation today.
+
+### Thank You | Better Life 4 U
+https://better-life-4-u-bd32034d.zappy5.app/thank-you
+Better Life 4 U - Thank You | Better Life 4 U
+
+## Legal & Policy
+
+### Privacy Policy
+https://better-life-4-u-bd32034d.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://better-life-4-u-bd32034d.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://better-life-4-u-bd32034d.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://better-life-4-u-bd32034d.zappy5.app
+- Endpoint: https://better-life-4-u-bd32034d.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Better Life 4 U
+A counseling and coaching practice led by a seasoned professional with 26 years of experience, dedicated to guiding individuals through stress, anxiety, depression, and relationship challenges toward a more fulfilling life. The brand exudes warmth, empathy, and genuine optimism — assuring clients that meaningful change is not only possible but achievable, even from the very first session. Services are offered flexibly as online sessions or as immersive retreat experiences for those ready to make a deeper transformation. The tone is confident and grounded without being boastful, creating a safe and hopeful space for people who sense there is more to life than merely surviving it.
+
+## Target Audience
+- People experiencing stress, anxiety, depression, marriage difficulties, or those seeking personal growth and positive life change
+- Stress & Anxiety Seekers
+- Marital Issues Clients
+- Personal Growth Enthusiasts
+
+## Industry
+Mental Health & Life Coaching
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://better-life-4-u-bd32034d.zappy5.app/sitemap.xml
+- Robots: https://better-life-4-u-bd32034d.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://better-life-4-u-bd32034d.zappy5.app/llms-full.txt
