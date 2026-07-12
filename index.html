@@ -358,10 +358,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
 <a class="skip-link" href="#main">Skip to main content</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -850,11 +850,11 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       <div class="home-hero-section__scrim"></div>
       <div class="home-hero-section__text-band">
         <div class="home-hero-section__text-container">
-          <h1 class="home-hero-section__headline" style="">Carrying the burden of life everywhere?</h1>
+          <h1 class="home-hero-section__headline">Carrying the burden of life everywhere?</h1>
           <div class="home-hero-section__accent-line">
             <svg data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 4"><line x1="0" y1="2" x2="120" y2="2" stroke="#f5c842" stroke-width="3" stroke-linecap="round"></line></svg>
           </div>
-          <h3 class="home-hero-section__subtitle" style=""></h3><h3><span class="font-accent" style="font-size: 2rem">There is a solution</span></h3>
+          <h3 class="home-hero-section__subtitle"></h3><h3><span class="font-accent" style="font-size: 2rem">There is a solution</span></h3>
         </div>
       </div>
     </div>
@@ -903,11 +903,11 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <div class="home-about-section__container">
     <div class="home-about-section__image-col">
       <div class="home-about-section__image-frame">
-        <img loading="lazy" decoding="async" data-placeholder="home-about-inline-tile-1" data-context="Warm professional portrait of a compassionate female counselor and life coach, smiling gently, conveying empathy and confidence, in a calm indoor setting with soft natural light.. Composition: Half-body, eye-level, slight three-quarter angle toward camera. Framing: Off-center to END side, generous negative space on START side for text. Background: Soft warm neutral interior, blurred background. Treatment: drop-shadow" data-treatment="drop-shadow" data-dominant-color="#c8a87a" data-aspect-ratio="4:5" alt="Warm professional portrait of a compassionate female counselor and life coach" width="600" height="750" src="/assets/site-home-service-inline-tile-1-1783567514331-olnzhp.webp" data-element-type="image" data-element-id="img-1783865696370-h5b1dm9fk" style="" fetchpriority="low">
+        <img loading="lazy" decoding="async" data-placeholder="home-about-inline-tile-1" data-context="Warm professional portrait of a compassionate female counselor and life coach, smiling gently, conveying empathy and confidence, in a calm indoor setting with soft natural light.. Composition: Half-body, eye-level, slight three-quarter angle toward camera. Framing: Off-center to END side, generous negative space on START side for text. Background: Soft warm neutral interior, blurred background. Treatment: drop-shadow" data-treatment="drop-shadow" data-dominant-color="#c8a87a" data-aspect-ratio="4:5" alt="Warm professional portrait of a compassionate female counselor and life coach" width="600" height="750" src="/assets/site-home-service-inline-tile-1-1783567514331-olnzhp.webp" data-element-type="image" data-element-id="img-1783865696370-h5b1dm9fk" fetchpriority="low">
       </div>
     </div>
     <div class="home-about-section__text-col">
-      <h2 class="home-about-section__title" style="">Meet Shelley — Your Partner in Change</h2>
+      <h2 class="home-about-section__title">Meet Shelley — Your Partner in Change</h2>
       <p class="home-about-section__bio">With 26 years of experience in counseling and life coaching, Shelley has dedicated her career to helping people move beyond stress, anxiety, depression, and relationship challenges. Her warm, grounded approach creates a safe space where you feel truly heard and understood — because meaningful change is not only possible, it's achievable, often from the very first session. You don't have to struggle alone. Together, we'll uncover the path to a more fulfilling, joyful life.</p>
       <p><a href="mailto:shelley@a2b-infra.com" class="home-about-section__cta">Book Your Free Consultation</a>
     </p></div>
@@ -1110,7 +1110,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:shelley@a2b-infra.com">shelley@a2b-infra.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
@@ -1124,20 +1124,18 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>Opening Hours</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">Mon–Fri</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">Sat</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">Sun</span> <span class="hours-time">Closed</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">Mon–Fri</span> <span class="hours-time">09:00–18:00</span></a></li>
+<li><a href="/"><span class="hours-day">Sat</span> <span class="hours-time">09:00–14:00</span></a></li>
+<li><a href="/"><span class="hours-day">Sun</span> <span class="hours-time">09:00–17:00</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
       <div class="footer-col footer-social-col">
         <h4>Follow Us</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://facebook.com/shelley adiv" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
