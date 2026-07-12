@@ -33,6 +33,8 @@ Information about WCAG compliance and accessibility features.
 ## How to Contact Us
 
 - Email: shelley@a2b-infra.com
+- Phone: +17276431767
+- Phone (tel): tel:+17276431767
 
 ### Contact form
 - URL: https://example.com
