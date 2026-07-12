@@ -105,14 +105,6 @@ Contact
 
 
 
-Start Your Journey Today
-
-
-
-
-
-
-
 
 
 
@@ -247,6 +239,10 @@ clients notice a real change from the very first meeting
 
 Free
 initial consultation, no commitment required
+
+
+Flexible Location
+I travel so no matter what your location is
 
 
 
@@ -511,7 +507,6 @@ Privacy Policy
 - Services
 - Results
 - Stories
-- FAQ
 - Contact
 
 
@@ -787,7 +782,6 @@ Accessibility Statement
 - Services
 - Results
 - Stories
-- FAQ
 - Contact
 
 
@@ -1069,7 +1063,6 @@ Terms & Conditions
 - Services
 - Results
 - Stories
-- FAQ
 - Contact
 
 
@@ -1398,7 +1391,6 @@ Skip to main content
 - Services
 - Results
 - Stories
-- FAQ
 - Contact
 
 

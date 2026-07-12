@@ -74,17 +74,17 @@
    CSS VARIABLES - DESIGN TOKENS
    ============================================= */
 :root {
-  /* Color Palette */
+/* Color Palette */
   --primary: #f5a623;
-  --secondary: #1a2a3a;
+  --secondary: #2a6090;
   --accent: #f5c842;
-  --bg-light: #f4f0e8;
-  --bg-dark: #0a1520;
+  --bg-light: #dce8f2;
+  --bg-dark: #dce8f2;
   --text-dark: #1a1a1a;
-  --text-light: #ffffff;
-  --text-muted: #6b7280;
-  --border-light: #e5e7eb;
-  --border-dark: #374151;
+  --text-light: #1a1a1a;
+  --text-muted: #516071;
+  --border-light: #76808b;
+  --border-dark: #76808b;
   --nav-bg: #0a1520;
   --nav-text: #ffffff;
   --nav-text-hover: #f5a623;
@@ -110,6 +110,13 @@
 
   /* Accent Font */
   --accent-font: 'Dancing Script', cursive;
+  --primary-color: #f5a623;
+  --secondary-color: #2a6090;
+  --accent-color: #f5c842;
+  --background-color: #dce8f2;
+  --surface-color: #f4f0e8;
+  --text-color: #1a1a1a;
+  --text-secondary-color: #516071;
 }
 
 /* =============================================
@@ -316,8 +323,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #e5940f;
-  border-color: #e5940f;
+  background-color: #f5a623;
+  border-color: #f5a623;
   color: var(--text-dark);
 }
 
@@ -408,7 +415,7 @@ html:not([dir]) .whatsapp-float {
   --nav-text-hover: #f5a623;
   --primary: #f5a623;
   --text-dark: #1a1a1a;
-  --text-light: #ffffff;
+  --text-light: #1a1a1a;
 }
 
 *,
@@ -644,7 +651,7 @@ body {
   --nav-text-hover: #f5a623;
   --primary: #f5a623;
   --text-dark: #1a1a1a;
-  --text-light: #ffffff;
+  --text-light: #1a1a1a;
 }
 
 *,
@@ -1602,7 +1609,7 @@ html:not([dir="rtl"]):not([lang="he"]):not([lang="ar"]) .dropdown-menu {
     order: 0 !important;
     padding: 16px 28px;
     border-radius: 999px;
-    background: var(--primary, var(--accent, #e85d2a)) !important;
+    background: var(--primary, var(--accent, #f5a623)) !important;
     color: #ffffff !important;
     font-size: 1.1rem;
     font-weight: 700;
@@ -2310,7 +2317,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 
 /* V2 Decorative Helpers — quote marks */
-:root { --decorative-quote-color: var(--accent, #b48b59); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
+:root { --decorative-quote-color: var(--accent, #f5a623); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
 blockquote::before, .quote::before, [data-quote]::before {
   content: "\201C";
   font-family: var(--decorative-quote-font);
@@ -2627,7 +2634,7 @@ main { flex: 1 0 auto; }
 }
 
 .home-features-section__card {
-  background: #ffffff;
+  background: #dce8f2;
   border-radius: 16px;
   padding: 32px 28px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
@@ -2908,7 +2915,7 @@ main { flex: 1 0 auto; }
 /* services */
 .home-services-section {
   background-color: #0a1520;
-  background-image: linear-gradient(135deg, #1a2a3a 0%, #0a1520 100%);
+  background-image: linear-gradient(135deg, #2A6090 0%, #0a1520 100%);
   color: var(--text-light);
   padding: var(--spacing-section) 16px;
   position: relative;
@@ -3038,7 +3045,7 @@ main { flex: 1 0 auto; }
 }
 
 .home-services-section__cta:hover {
-  background: #f5b840;
+  background: #f5c842;
   box-shadow: 0 6px 20px rgba(245, 166, 35, 0.5);
   transform: translateY(-2px);
 }
@@ -3191,7 +3198,7 @@ main { flex: 1 0 auto; }
 }
 
 .home-testimonials-section__card {
-    background: #ffffff;
+    background: #dce8f2;
     border-radius: var(--radius-card, 12px);
     padding: var(--spacing-card-padding, 32px);
     box-shadow: 0 8px 32px rgba(0,0,0,0.10);
@@ -3553,7 +3560,7 @@ main { flex: 1 0 auto; }
   font-size: 16px;
   font-weight: 400;
   color: var(--text-dark);
-  background-color: #ffffff;
+  background-color: #dce8f2;
   border: 1px solid var(--border-light);
   border-radius: 8px;
   padding: 14px 16px;
@@ -3636,7 +3643,7 @@ main { flex: 1 0 auto; }
 }
 
 .home-final-cta-section-submit:hover {
-  background: #e5940f;
+  background: #f5a623;
   box-shadow: 0 6px 22px rgba(245, 166, 35, 0.5);
   transform: translateY(-2px);
 }
@@ -4089,8 +4096,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-btn-primary-bg: #f5a623;
   --cc-btn-primary-color: #ffffff;
   --cc-btn-primary-border: #f5a623;
-  --cc-btn-primary-hover-bg: #dc8d0a;
-  --cc-btn-primary-hover-border: #dc8d0a;
+  --cc-btn-primary-hover-bg: #f5a623;
+  --cc-btn-primary-hover-border: #f5a623;
   --cc-btn-primary-hover-color: #ffffff;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
@@ -4217,7 +4224,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #f5a623 !important;
+  color: #8d5a06 !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -4227,7 +4234,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 #zappy-cookie-banner .zappy-cookie-banner__button--customize:hover {
-  color: #dc8d0a !important;
+  color: #8d5a06 !important;
   background-color: transparent !important;
 }
 
@@ -4611,13 +4618,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 :root {
-  --bg-dark: #1e3a55;
-  --background: #e8edf2;
-  --backgroundDark: #1e3a55;
+  --bg-dark: #dce8f2;
+  --background: #dce8f2;
+  --backgroundDark: #2a6090;
   --nav-bg: #1e3a55;
-  --text-light: #ffffff;
-  --text-dark: var(--secondary-color, var(--secondary, #1a2a3a));
-  --text-muted: #5a6b7d;
+  --text-light: #1a1a1a;
+  --text-dark: #1a1a1a;
+  --text-muted: #516071;
 }
 
 body {
@@ -4625,15 +4632,15 @@ body {
 }
 
 .home-hero-section {
-  background-color: #1e3a55 !important;
+  background-color: #2a6090 !important;
 }
 
 .home-stats-section {
-  background-color: #1e3a55 !important;
+  background-color: #2a6090 !important;
 }
 
 .home-final-cta-section-container {
-  background-color: #1e3a55 !important;
+  background-color: #2a6090 !important;
 }
 
 .home-hero-section__scrim {
@@ -4645,7 +4652,7 @@ body {
 }
 
 .site-footer {
-  background-color: #1e3a55 !important;
+  background-color: #2a6090 !important;
 }
 
 .home-features-section {
@@ -4653,7 +4660,7 @@ body {
 }
 
 .home-about-section {
-  background-color: #ffffff !important;
+  background-color: #dce8f2 !important;
 }
 
 .home-services-section {
@@ -4661,7 +4668,7 @@ body {
 }
 
 .home-testimonials-section {
-  background-color: #ffffff !important;
+  background-color: #dce8f2 !important;
 }
 
 .home-faq-section {
@@ -4672,10 +4679,10 @@ body {
   background-color: rgba(30, 58, 85, 0.85) !important;
 }
 /* zappy-self-heal */
-:root { --backgroundDark: #1e3a55 !important; }
+:root { --backgroundDark: #2a6090 !important; }
 
 /* zappy-self-heal */
-html body :root { --backgroundDark: #1e3a55 !important; }
+html body :root { --backgroundDark: #2a6090 !important; }
 
 
 .home-features-section__container {
@@ -4694,7 +4701,7 @@ html body :root { --backgroundDark: #1e3a55 !important; }
   text-align: center !important;
   padding: 36px 28px !important;
   border-radius: 16px !important;
-  background-color: #ffffff !important;
+  background-color: #dce8f2 !important;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06) !important;
   height: 100% !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
@@ -4718,7 +4725,7 @@ html body :root { --backgroundDark: #1e3a55 !important; }
 .home-features-section__card-title {
   font-size: 1.15rem !important;
   font-weight: 700 !important;
-  color: var(--secondary-color, var(--secondary, #1a2a3a)) !important;
+  color: var(--secondary-color, var(--secondary, #2a6090)) !important;
   margin-bottom: 10px !important;
 }
 
@@ -4736,6 +4743,19 @@ html body :root { --backgroundDark: #1e3a55 !important; }
   font-size: 0.95rem !important;
   margin: 0 !important;
 }
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-primary,
+.btn--primary,
+[class*="btn-primary"],
+[class*="btn--primary"] { color: #333333 !important; }
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #333333 !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
